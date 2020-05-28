@@ -1,0 +1,50 @@
+
+.search {
+    height: 50px;
+    width: 90%;
+    padding: 20px;
+    outline: none;
+    border: 1px solid lightblue;
+    border-right: none;
+}
+.search:focus{
+    border-right: 1px solid lightblue;
+}
+
+.select {
+    border-top: 1px solid lightblue;
+    border-bottom: 1px solid lightblue;
+    border-left: none;
+    border-right: none;
+    width: 10%;
+    height: 50px;
+    padding-left: 4%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;     
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 0;
+    outline: none;
+    background-color: inherit;
+}
+.select:hover {
+    color: rgb(14, 179, 179);
+    transition: 0.5s ease-in-out;
+}
+
+.aud {
+    text-align: right;
+    padding: 10px 0;
+}
+
+.add-user {
+    border-left: 1px solid lightblue;
+    padding: 10px 20px;
+}
+.add-user:hover {
+    color: rgb(14, 179, 179);
+    transition: 0.5s ease-in-out;
+}

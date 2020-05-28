@@ -1,0 +1,41 @@
+.single {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.table thead tr {
+  color: rgb(105, 105, 105);
+}
+
+.table.tsu tbody tr {
+    background-color: rgb(130, 202, 157);  
+    color: rgb(17, 32, 163);
+}
+.chart-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 10px;
+}
+.chart {
+    border-top: 1px solid lightskyblue;
+    vertical-align: top;
+    padding: 20px 10px;
+}
+.chart-2 {
+    overflow: hidden;
+    border-top: 1px solid lightpink;
+    padding: 20px 10px;
+    vertical-align: top;
+}
+h3 {
+    margin-bottom: 20px;
+}
+.err {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: red;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border: 1px solid pink;
+}

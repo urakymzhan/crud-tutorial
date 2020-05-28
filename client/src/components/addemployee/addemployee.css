@@ -1,0 +1,50 @@
+.employee {
+    margin: 50px auto;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid #85e2f6;
+    border-radius: .25rem;
+}
+.btn.btn-outline-dark {
+    margin: 20px;
+    float: none!important;
+    border: 1px solid #85e2f6;
+    color: rgb(105, 105, 105);
+}
+.btn.btn-outline-dark:hover {
+    background: inherit;
+}
+h4 {
+    text-transform: uppercase;
+    color: rgb(105, 105, 105);
+    text-align: center;
+}
+.employee form {
+    background-color: #fff;
+}
+.employee form input{
+    padding: 20px;
+}
+.btn.add.btn-dark {
+    width: 100%;
+    border: none;
+    background-color: inherit!important;
+}
+.col {
+    background-color: #4c90a0;
+    padding: 0;
+    margin: 0;
+    border-radius: .25rem;
+}
+.col:hover {
+    background-color: #3e7d8b;
+    transition: 0.3s linear;
+}
+.form-row {
+    margin: 20px 0!important;
+}
+.error{
+    padding: 5px 20px; 
+    color: #d8182b;
+    text-shadow: 0 0 10px rgb(240, 182, 105);
+}

@@ -1,0 +1,20 @@
+
+.sc-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.sc-btn button:first-child {
+    width: 50%;
+    border: none;
+    background-color: inherit;
+    color: red;
+}
+.sc-btn button:last-child {
+    width: 50%;
+    border: none;
+    background-color: inherit;
+    color: blue;
+}
+
+
